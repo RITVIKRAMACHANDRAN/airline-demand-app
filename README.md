@@ -1,14 +1,22 @@
-# Airline Market Demand Analyzer ✈️
+# ✈️ Airline Booking Market Demand Web App
 
-A lightweight Python web app to analyze airline booking trends.
+This is a Python-based web application developed as part of a technical task to analyze and visualize airline booking market demand data. The application simulates demand trends using mock data and allows users to filter by origin, destination, and travel date range.
 
-## Features
-- Fetches real-time data from Kiwi public flight API
-- Displays routes, prices, and trends
-- Visualizes price change over time
+---
 
-## How to Run
+## 🚀 Features
+
+- 📅 **Filter by Origin, Destination, and Date Range**
+- 📊 **Visualize Demand Trends** using line charts
+- 📁 **Mock Data Simulation** for real-world scenarios
+- 💡 **Insights Displayed Clearly** for non-technical users
+- 🌐 **Streamlit-based Web Interface** for easy interaction
+
+---
+
+## 📂 Project Structure
 
 ```bash
-pip install -r requirements.txt
-streamlit run app.py
+airline-demand-app/
+│
+├── app.py
